@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 50;
+    
 }
 body{
     background-color: aqua;
@@ -8,8 +9,25 @@ body{
 }
 main{
     background-color: azure;
-    width: 100px;
-    margin: auto;
-    padding: 100px;
-    box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.342);
+    margin:auto;
+    padding: 10px;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.342);
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: blue;
+}
+a :hover{
+    text-decoration: underline;
+    color: crimson;
 }
